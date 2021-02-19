@@ -5,7 +5,7 @@
         padding: 0;
         list-style: none;
     }
-    @keyframes move {
+    @keyframes grow {
         0%{
             left: 0%;
         }
@@ -18,7 +18,7 @@
    }
    h1{
        position: relative;
-       animation-name: move;
+       animation-name: grow;
        animation-duration: 3s;
        animation-fill-mode: forwards;
        animation-iteration-count: infinite;
