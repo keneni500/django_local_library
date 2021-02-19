@@ -6,14 +6,11 @@
         list-style: none;
     }
     @keyframes grow {
-        0%{
-            left: 0%;
+        from{
+            font-size: 20px;
         }
-        50%{
-            left: 50%;
-        }
-        100%{
-            left:0%;
+        to{
+            font-size: 100px;
         }
    }
    h1{
